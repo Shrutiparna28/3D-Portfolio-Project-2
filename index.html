@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Portfolio Website Using HTML CSS And Javascript</title>
+    <link rel="stylesheet" href="style.css">  
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+    <div class="wrapper">
+        <div class="cover cover-left"></div>
+        <div class="cover cover-right turn"></div>
+
+        <div class="book">
+            <!-- profile page -->
+             <div class="book-page page-left">
+                <div class="profile-page">
+                    <img src="Images/Photo.jpg" alt="">
+                    <h1>Shruti Parna</h1>
+                    <h3>Graphic Designer</h3>
+
+                    <div class="social-media">
+                        <a href="#"><i class='bx bxl-facebook'></i></a>
+                        <a href="#"><i class='bx bxl-twitter' ></i></a>
+                        <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                        <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                    </div>
+
+                    <p>Hi, I'm Shruti Parna, a final-year student and freelance graphic designer with two years of experience. 
+                         I create eye-catching designs and engaging content and am eager to collaborate on creative projects. 
+                         Let's make something extraordinary together!</p>
+
+                        <div class="btn-box">
+                            <a href="#" class="btn">Download CV</a>
+                            <a href="#" class="btn contact-me">Contact Me</a>
+                        </div>
+                </div>
+             </div>
+
+             <!-- page 1 & 2 -->
+              <div class="book-page page-right turn" id="turn-1">
+              <!-- page 1 (work experience) -->
+               <div class="page-front">
+                <h1 class="title">Work Experience</h1>
+                
+                <div class="workeduc-box">
+                    <div class="workeduc-content">
+                        <span class="year"><i class='bx bxs-calendar'></i> Sep 2022 - Jul 2024</span>
+                        <h3>Graphic Designer - SmallTownTalks</h3>
+                        <p>I have crafted eye-catching graphics for social media, ads, and websites, 
+                            designed infographics to simplify complex ideas, collaborated on brand-aligned visuals, 
+                            and created email templates to boost engagement.</p>
+                    </div>
+
+                    <div class="workeduc-content">
+                        <span class="year"><i class='bx bxs-calendar'></i> Dec 2023 - Jul 2024</span>
+                        <h3>Graphic Designer - GDSC</h3>
+                        <p>I have crafted eye-catching graphics for social media, ads, and websites, 
+                            designed infographics to simplify complex ideas, collaborated on brand-aligned visuals, 
+                            and created email templates to boost engagement.</p>
+                    </div>
+
+                    <div class="workeduc-content">
+                        <span class="year"><i class='bx bxs-calendar'></i> May 2024 - Jul 2024</span>
+                        <h3>Social Media Executive - Techniva Global</h3>
+                        <p>Have developed social media strategies, manages content across platforms, 
+                            analyzes performance metrics, and engages with the online community to 
+                            manage brand reputation.</p>
+                    </div>
+                </div>
+
+                <span class="number-page">1</span>
+
+                <!-- next button -->
+                 <span class="nextprev-btn" data-page="turn-1">
+                    <i class='bx bx-chevron-right'></i>
+                 </span>
+               </div>
+               
+               <!-- page 2 (education) -->
+               <div class="page-back">
+                <h1 class="title">Education</h1>
+
+                <div class="workeduc-box">
+                    <div class="workeduc-content">
+                        <span class="year"><i class='bx bxs-calendar'></i> Mar 2007 - Mar 2018 </span>
+                        <h3>Carmel School Dhanbad - ICSE</h3>
+                        <p>Secondary - 71% </p>
+                    </div>
+
+                    <div class="workeduc-content">
+                        <span class="year"><i class='bx bxs-calendar'></i> Jul 2018 - Mar 2020 </span>
+                        <h3>GGCET ST. Xavier's Interntaional School Dhanbad - CBSE</h3>
+                        <p>Higher Secondary - 75% </p>
+                    </div>
+
+                    <div class="workeduc-content">
+                        <span class="year"><i class='bx bxs-calendar'></i> May 2021 - Jul 2025 </span>
+                        <h3>Asansol Engineering College (AEC)</h3>
+                        <p>Student Of Information Technology Department.</p>
+                    </div>
+                </div>
+
+
+                <span class="number-page">2</span>
+
+                <!-- prev button -->
+                 <span class="nextprev-btn back" data-page="turn-1">
+                    <i class='bx bx-chevron-left'></i>  
+                 </span>
+               </div>
+               </div>
+
+              <!-- page 3 & 4-->
+               <div class="book-page page-right turn" id="turn-2">
+                <!-- page 3 (My Services)-->
+                 <div class="page-front">
+                    <h1 class="title">My Services</h1>
+
+                    <div class="services-box">
+                        <div class="services-content">
+                            <i class='bx bxs-chart'></i>
+                            <h3>Social Media Planning</h3>
+                            <p>I offer content planning services, for brand visibility. </p>
+                            <a href="#" class="btn">Read More</a>  
+                        </div>
+
+                        <div class="services-content">
+                            <i class='bx bxs-palette'></i>
+                            <h3>Brand Identity</h3>
+                            <p>I am skilled in creating brand identities through visual design. </p>
+                            <a href="#" class="btn">Read More</a>  
+                        </div>
+
+                        <div class="services-content">
+                            <i class='bx bxs-edit-alt'></i>
+                            <h3>Content Creation</h3>
+                            <p>I create cool contents for brands for engagement and visibility.</p>
+                            <a href="#" class="btn">Read More</a>  
+                        </div>
+
+                        <div class="services-content">
+                            <i class='bx bxs-photo-album'></i>
+                            <h3>Thumbnail Design</h3>
+                            <p>I create eye-catching thumbnails for visual appeal.</p>
+                            <a href="#" class="btn">Read More</a>  
+                        </div>
+                    </div>
+
+                    <span class="number-page">3</span>
+
+                        <!-- next button -->
+                         <span class="nextprev-btn" data-page="turn-2">
+                            <i class='bx bx-chevron-right'></i>
+                         </span>
+                 </div>
+                <!-- page 4 (My Skills)-->
+                <div class="page-back">
+                    <h1 class="title">My Skills</h1>
+
+                   <div class="skills box">
+                    <div class="skills-content">
+                        <h3>Graphic Design</h3>
+                        <div class="content">
+                            <span><i class='bx bx-paint'></i>Photoshop</span>
+                            <span><i class='bx bxs-pencil'></i>Illustrator</span>
+                            <span><i class='bx bxs-photo-album'></i>Canva</span>
+                            <span><i class='bx bxl-figma'></i>Figma</span>
+                        </div>
+                    </div>
+
+                    <div class="skills-content">
+                        <h3>Front-End (Basic)</h3>
+                        <div class="content">
+                            <span><i class='bx bxl-html5'></i>HTML</span>
+                            <span><i class='bx bxl-css3'></i>CSS</span>
+                            <span><i class='bx bxl-javascript'></i>Javascript</span>
+                        </div>
+                    </div>
+
+                    <div class="skills-content">
+                        <h3>Video-Editing</h3>
+                        <div class="content">
+                            <span><i class='bx bxs-video'></i>Capcut</span>
+                            <span><i class='bx bx-video'></i>Filmora</span>
+                            <span><i class='bx bx-cut'></i>VN Editor</span>
+                            <span><i class='bx bxs-photo-album'></i>Canva</span>
+                        </div>
+                    </div>
+                   </div>
+                   
+                   <span class="number-page">4</span>
+
+                <!-- prev button -->
+                 <span class="nextprev-btn back" data-page="turn-2">
+                    <i class='bx bx-chevron-left'></i>  
+                 </span>
+               </div> 
+        </div>
+
+        <!-- page 5 & 6-->
+         <div class="book-page page-right turn" id="turn-3">
+            <!-- page 5 (my projects or portfolio) -->
+
+            <div class="page-front">
+                <h1 class="title">Latest Projects</h1>
+
+                <div class="portfolio-box">
+                    <div class="img-box">
+                        <img src="Images/Leaves.jpg" alt="">
+                    </div>
+                    
+                    <div class="info-box">
+                        <div class="info-title">
+                            <h3>Leaves Realistic Beauty</h3>
+                            <a href="#">Live Preview<i class='bx bx-link-external'></i></a>
+                        </div>
+                        <p>Tech Used :</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                            incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+    
+                    <div class="btn-box">
+                        <a href="#" class="btn">Source File</a>
+                        <a href="#" class="btn">More Projects</a>
+                    </div>
+                </div>
+
+                <span class="number-page">5</span>
+
+                <!-- prev button -->
+                 <span class="nextprev-btn front" data-page="turn-3">
+                    <i class='bx bx-chevron-right'></i>  
+                 </span>
+            </div>
+
+
+              <!-- page 6 (contact me) -->
+              <div class="page-back">
+                <h1 class="title">Contact Me!</h1>
+
+                <div class="contact-box">
+                    <form action="#">
+                        <input type="text" class="field" placeholder="Full Name" required>
+                        <input type="email" class="field" placeholder="Email Address" required>
+                        <textarea name="" id="" cols="30" rows="10" class="field" placeholder="Your Message" required>
+                        </textarea>
+                        <input type="submit" class="btn" value="Send Message">
+                    </form>
+                </div>
+
+                <span class="number-page">6</span>
+
+                <!-- prev button -->
+                 <span class="nextprev-btn back" data-page="turn-3">
+                    <i class='bx bx-chevron-left'></i>  
+                 </span>
+
+                <a href="#" class="back-profile">
+                    <p>Profile</p>
+                    <i class='bx bxs-user'></i>
+                </a> 
+            </div>
+         </div>
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
