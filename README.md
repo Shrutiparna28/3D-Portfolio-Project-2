@@ -17,6 +17,6 @@ Installation
 To view the project locally:
 
 1. Clone the repository:
-git clone https://github.com/shrutiparna28/3d-portfolio-project.git
+(https://github.com/Shrutiparna28/3D-Portfolio-Project-2.git)
 
 a. Open index.html in your browser.
